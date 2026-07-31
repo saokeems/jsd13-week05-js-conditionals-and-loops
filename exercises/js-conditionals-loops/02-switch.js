@@ -9,6 +9,39 @@
 
 function dayType(dayNumber) {
   // TODO: replace this with your implementation
+  switch (dayNumber) {
+    case 0:
+      return "weekend";
+      break;
+
+    case 1:
+      return "weekday";
+      break;
+
+    case 2:
+      return "weekday";
+      break;
+
+    case 3:
+      return "weekday";
+      break;
+
+    case 4:
+      return "weekday";
+      break;
+
+    case 5:
+      return "weekday";
+      break;
+
+    case 6:
+      return "weekend";
+      break;
+
+    default:
+      return "invalid";
+      break;
+  }
 }
 
 // --- Tests (do not edit) ---
