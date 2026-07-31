@@ -15,6 +15,18 @@
 
 function rectangle(width, height) {
   // TODO: replace this with your implementation
+  if (width < 1 || height < 1) return "";
+
+  const rows = [];
+  for (let i = 0; i < height; i++) {
+    let row = "";
+
+    for (let j = 0; j < width; j++) row += "*";
+
+    rows.push(row);
+  }
+
+  return rows.join("\n");
 }
 
 // --- Tests (do not edit) ---
